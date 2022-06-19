@@ -1,19 +1,63 @@
-.grid-container {
-    margin: 20px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-}
-.grid-item {
-    /* background-color: rgba(255, 255, 255, 0.5); */
-    background-color: transparent;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-}
-.flex-box{
-    display: flex;
+/*.main_div{*/
+/*    border: 2px solid black;*/
+/*    border-collapse: collapse;*/
+/*}*/
+
+
+
+.first_div, .second-div, .third_div, .fourth_div{
+    float: left;
+    width: 49%;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 0.5px;
     align-items: center;
     justify-content: center;
+    /*background-color: tomato;*/
+}
+
+.first_div, .second-div{
+    height: 200px;
+}
+
+.first_table{
+    margin: 0 auto;
+    margin-top: 35px;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.first_table_row{
+    border: 1px solid black;
+}
+
+.second_table{
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.third_div, .fourth_div{
+    height: 100px;
+}
+
+.third_table{
+    width: 100%;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.fourth_table{
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.fourth_html{
+    color: white;
+    text-align: center;
 }
