@@ -2,72 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
   <title>Home</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-<div style="background-color: darkred">
-  <div class="first_div">
-    <table class="first_table">
-      <tr>
-        <th class="first_table_row" colspan="2" >Nested Table 2</th>
-      </tr>
-      <tr>
-        <th style="border: 1px solid black">Column 1</th>
-        <th style="border: 1px solid black">Column 2</th>
-      </tr>
-      <tr>
-        <td class="weight" style="border: 1px solid black">abc</td>
-        <td class="weight" style="border: 1px solid black">def</td>
-      </tr>
-    </table>
-  </div>
+<table class="main_table">
+  <tbody class="table_body">
+  <tr class="first_row">
+    <td class="first_container">
+      <table class="first_table">
+        <tr>
+          <th colspan="2">Nested Table 2</th>
+        </tr>
+        <tr>
+          <th>Column 1</th>
+          <th>Column 2</th>
+        </tr>
+        <tr>
+          <td>abc</td>
+          <td>def</td>
+        </tr>
+      </table>
 
-  <div class="second-div">
-    <table class="second_table">
-      <tr>
-        <th style="border: 1px solid black">Nested Table 1</th>
-      </tr>
+    <td class="second_container">
+      <table class="second_table">
+        <tr>
+          <th>Nested Table 1</th>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+              <li>List item</li>
+              <li>List item</li>
+              <li>List item</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </td>
+    </td>
+  </tr>
 
-      <tr >
-        <td style="border: 1px solid black">
-          <ul >
-            <li class="weight">List item</li>
-            <li class="weight">List item</li>
-            <li class="weight">List item</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
+  <tr class="second-_row">
+    <td class="third_container">
+      <table class="third_table">
+        <tr>
+          <th colspan="2">Nested Table 3</th>
+        </tr>
+        <tr>
+          <td>
+            <a href="#">Nested Table</a>
+          </td>
+          <td>Demo Continued</td>
+        </tr>
+      </table>
+    </td>
 
-  </div>
+    <td class="fourth_container">
+      <table class="fourth_table">
+        <tr>
+          <th>Nested Table 4</th>
+        </tr>
+        <tr class="html_style">
+          <td>HTML</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  </tbody>
 
-  <div class="third_div">
-    <table class="third_table">
-      <tr>
-        <th style="border: 1px solid black" colspan="2" >Nested Table 3</th>
-      </tr>
-
-      <tr>
-        <td style="border: 1px solid black">
-          <a class="weight" href="#">Nested Table</a>
-        </td>
-        <td class="weight" style="border: 1px solid black">Demo Continued</td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="fourth_div">
-    <table class="fourth_table">
-      <tr>
-        <th style="border: 1px solid black">Nested Table 4</th>
-      </tr>
-
-      <tr>
-        <td class="fourth_html weight"  style="background-color: black">HTML</td>
-      </tr>
-    </table>
-  </div>
-</div>
+</table>
 </body>
 </html>

@@ -1,68 +1,32 @@
-/*.main_div{*/
-/*    border: 2px solid black;*/
-/*    border-collapse: collapse;*/
-/*}*/
-
-
-
-.first_div, .second-div, .third_div, .fourth_div{
-    float: left;
-    width: 49%;
-    justify-content: center;
-    border: 1px solid black;
-    margin: 0.5px;
-    align-items: center;
-    justify-content: center;
-    /*background-color: tomato;*/
+body{
+    color:black;
 }
 
-.first_div, .second-div{
+tbody, tr, th, td{
+    border: 1.7px solid black;
+}
+.main_table{
+    border: 1.7px solid black;
+    width: 100%;
+}
+
+.first_table, .second_table, .third_table, .fourth_table{
+    border: 1.7px solid black;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.first_container{
+    width: 50%;
     height: 200px;
 }
 
-.first_table{
-    margin: 0 auto;
-    margin-top: 35px;
-    width: 100%;
-    border: 1px solid black;
-    text-align: center;
+.third_container{
+    height:100px;
 }
 
-.first_table_row{
-    border: 1px solid black;
-}
-
-.second_table{
-    border: 1px solid black;
-    margin: 0 auto;
-    margin-top: 20px;
-    text-align: center;
-    width: 100%;
-}
-
-.third_div, .fourth_div{
-    height: 100px;
-}
-
-.third_table{
-    width: 100%;
-    border: 1px solid black;
-    margin: 0 auto;
-    margin-top: 30px;
-    text-align: center;
-}
-
-.weight{
-    font-weight: bold;
-}
-
-.fourth_table{
-    border: 1px solid black;
-    width: 100%;
-    margin-top: 30px;
-}
-
-.fourth_html{
+.html_style{
+    background-color: black;
     color: white;
-    text-align: center;
 }
